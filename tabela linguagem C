@@ -1,0 +1,52 @@
+#includ <stdio.h>	
+
+  int main ()
+  {
+  int animal;
+	int leao = 2;
+	int zebra = 3;
+	int coala = 4;
+	int jacare = 5;
+	int arara = 9;
+	int valorkg = 7;
+	int custoDia = 0;
+	float custoMes = 0;
+	int quantidadeDia = 0;
+	float quantidadeMes = 0;
+	
+	printf ("escolha um animal:");
+	printf ("\n[1]-leao");
+	printf ("\n[2]-zebra");
+	printf ("\n[3]-coala");
+	printf ("\n[4]-jacare");
+	printf ("\n[5]-arara");
+	
+	
+	printf ("\n\n Digite qual animal?:");
+	scanf ("%d", &leao);
+	scanf ("%d", &zebra);
+	scanf ("%d", &coala);
+	scanf ("%d", &jacare);
+	scanf ("%d", &arara);
+	
+	
+	printf ("\n\nDigite a quantidade de animais leao%d zebra%d coala%d jacare%d arara%d \n",leao,zebra,coala,jacare,arara);
+  printf ("\n[1]-leao");
+	printf ("\n[2]-zebra");
+	printf ("\n[3]-coala");
+	printf ("\n[4]-jacare");
+	printf ("\n[5]-arara");
+	scanf ("%d",&animal);
+	
+	
+	printf ("\n\nDigite a quantidade kg´s por dia:");
+	printf ("\n[1]-leao=5kgs");
+	printf ("\n[2]-zebra=3,5kgs");
+	printf ("\n[3]-coala=2kgs");
+	printf ("\n[4]-jacare=5kgs");
+	printf ("\n[5]-arara=1kgs");
+	scanf ("%d",&quantidadeDia);
+	
+	
+	return 0;
+}
